@@ -1,0 +1,15 @@
+- hosts: fram
+  connection: httpapi
+  collections:
+  - darkedges.forgerock
+  vars:
+    ansible_httpapi_realm: "/root"
+    ansible_httpapi_use_ssl: yes
+    ansible_httpapi_port: 443
+    ansible_httpapi_validate_certs: no
+  tasks:
+    - fram_baseurlsource:
+        source: "FIXED_VALUE"
+        fixed_value: "https://fram.example.com"
+        context_path: "/openam"
+        state: present

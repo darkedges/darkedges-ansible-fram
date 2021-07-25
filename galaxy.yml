@@ -1,0 +1,18 @@
+namespace: darkedges
+name: forgerock
+authors:
+  - Nicholas Irving (@darkedges)
+dependencies:
+  ansible.netcommon: ">=2.0.0"
+description: DarkEge ForgeRock Collection for Ansible
+documentation: 
+homepage: 
+issues: 
+license:
+  - GPL-3.0-only
+readme: README.md
+repository: https://github.com/darkedges/darkedges-ansible-forgerock
+tags:
+  - fram
+  - forgerock
+version: 0.0.1-devel

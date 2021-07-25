@@ -1,0 +1,5 @@
+[fram]
+fram01 ansible_host=fram.example.com ansible_user="amadmin" ansible_password="password" 
+
+[fram:vars]
+ansible_network_os=darkedges.forgerock.fram
